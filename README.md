@@ -2,5 +2,5 @@
 
 # Venus
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Escrito por Federico Carranza Zavalia para el "Concurso Itaú Cuento Digital 2023"
+# Realizado por Federico Carranza Zavalia para el "Concurso Itaú Cuento Digital 2023"
 
