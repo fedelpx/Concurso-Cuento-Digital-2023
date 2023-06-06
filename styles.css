@@ -18,6 +18,19 @@ h1 {
   letter-spacing: 2px; /* Add letter spacing */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
   font-weight: bold; /* Make the text bold */
+  animation: glow 5s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+       text-shadow: none;
+  }
+  50% {
+       text-shadow: 0 0 10px #FDB813;
+  }
+  100% {
+        text-shadow: none;
+  }
 }
 
 .description-container {
@@ -38,6 +51,27 @@ h1 {
 
 }
 
+.button-container {
+      position: fixed;
+      bottom: 25px;
+      right: 20px;
+}
+        
+.button {
+    padding: 10px 20px;
+    background-color: #FDB813;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+        
+.button:hover {
+    background-color: #EFA500;
+}
+
+
 .description {
             
       text-align: left;
@@ -47,22 +81,15 @@ h1 {
       color: #FDB813;
       display: inline-block;
       border: 2px solid #808080; /* Add a gray border */
-      padding: 10px; /* Add padding inside the border */
+      padding: 20px; /* Add padding inside the border */
       vertical-align: top; /* Align the element to the top */
       float: right; /* Align the element to the right */
       box-sizing: border-box; /* Include border and padding within the element's total width */
       margin: 10px; /* Add some margin for spacing */
       max-width: 45%; /* Limit the width to fit within the gray box */
       box-sizing: border-box; /* Include border and padding within the element's total width */
-    
-      transition: box-shadow 0.3s; /* Add transition effect for box-shadow */
+      box-shadow: 0 0 10px #808080; /* Add a glowing effect
       
-
 }
 
-.description:hover {
-            box-shadow: 0 0 10px #808080; /* Add a glowing effect on hover */
 
-}
-
- 
