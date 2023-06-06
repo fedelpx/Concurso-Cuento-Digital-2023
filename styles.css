@@ -13,7 +13,7 @@ h1 {
   font-family: 'Kanit', sans-serif;
   color: #FDB813; /* Half-Life yellow color */
   margin-bottom: 20px; /* Adds space below the h1 element */
-  font-size: 88px; /* Increase the font size */
+  font-size: 92px; /* Increase the font size */
   text-transform: uppercase; /* Transform the text to uppercase */
   letter-spacing: 2px; /* Add letter spacing */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
@@ -41,7 +41,13 @@ h1 {
       max-width: 45%; /* Limit the width to fit within the gray box */
       box-sizing: border-box; /* Include border and padding within the element's total width */
       word-wrap: break-word; /* Allow long words to wrap to the next line */
+      transition: box-shadow 0.3s; /* Add transition effect for box-shadow */
       
+
+}
+
+.description:hover {
+            box-shadow: 0 0 10px #808080; /* Add a glowing effect on hover */
 
 }
 
