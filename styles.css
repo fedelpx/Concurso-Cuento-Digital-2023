@@ -12,12 +12,12 @@ h1 {
   text-align: center;
   font-family: 'Kanit', sans-serif;
   color: #FDB813; /* Half-Life yellow color */
-  margin-bottom: 20px; /* Adds space below the h1 element */
+  margin-bottom: 50px; /* Adds space below the h1 element */
   font-size: 92px; /* Increase the font size */
   text-transform: uppercase; /* Transform the text to uppercase */
   letter-spacing: 2px; /* Add letter spacing */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
-  font-weight: bold; /* Make the text bold */
+  font-weight: normal; /* Make the text bold */
   animation: glow 5s infinite alternate;
 }
 
