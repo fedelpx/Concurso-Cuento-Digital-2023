@@ -12,7 +12,7 @@ h1 {
   text-align: center;
   font-family: 'Kanit', sans-serif;
   color: #FDB813; /* Half-Life yellow color */
-  margin-bottom: 50px; /* Adds space below the h1 element */
+  margin-bottom: 30px; /* Adds space below the h1 element */
   font-size: 92px; /* Increase the font size */
   text-transform: uppercase; /* Transform the text to uppercase */
   letter-spacing: 2px; /* Add letter spacing */
@@ -36,7 +36,7 @@ h1 {
 .description-container {
             
   text-align: right;
-  padding: 20px 30px;
+  padding: 20px 40px;
 }
 
 .description p {
@@ -59,7 +59,7 @@ h1 {
 }
         
 .button {
-    padding: 10px 30px;
+    padding: 20px 30px;
     background-color: #FDB813;
     color: #ffffff;
     text-decoration: none;
@@ -69,7 +69,7 @@ h1 {
 }
 
 .button:not(:last-child) {
-    margin-right: 360px;
+    margin-right: 300px;
 }
         
 .button:hover {
