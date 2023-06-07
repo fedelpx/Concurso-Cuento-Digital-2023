@@ -18,6 +18,19 @@ main {
    justify-content: center;
 }
 
+.mp3-player {
+            position: absolute;
+            top: 25px;
+            right: 20px;
+            z-index: 1;
+}
+
+.mp3-player audio::-webkit-media-controls-panel {
+            background-color: #fdb813;
+            color: #ffffff;
+}
+
+
 @media screen and (max-width: 768px) {
             h1 {
                 font-size: 48px;
@@ -41,8 +54,8 @@ main {
 h1 {
   
   text-align: center;
-  font-family: 'Kanit', sans-serif;
-  color: #fdb813; /* Half-Life yellow color */
+  font-family: Garamond, serif;
+  color: #fdb813; /* Hf yellow color */
   font-size: 92px; /* Increase the font size */
   text-transform: uppercase; /* Transform the text to uppercase */
   letter-spacing: 2px; /* Add letter spacing */
@@ -50,6 +63,7 @@ h1 {
   font-weight: normal; /* Make the text bold */
   animation: glow 5s infinite alternate;
 }
+
 
 @keyframes glow {
   0% {
@@ -62,6 +76,13 @@ h1 {
         text-shadow: none;
   }
 }
+
+.textbox {
+            
+    color: #fdb813;
+    text-align: right;
+    max-width: 95%;
+        }
 
 .description-container {
             
@@ -109,7 +130,7 @@ h1 {
 .description {
             
       text-align: left;
-      font-family: 'Kanit', sans-serif;
+      font-family: 'Courier New', monospace;
       font-weight: normal;
       font-size: 20px;
       text-align: justify;
@@ -126,4 +147,6 @@ h1 {
       box-shadow: 0 0 10px #808080; /* Add a glowing effect
 
 }
+
+
 
