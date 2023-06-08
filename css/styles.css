@@ -135,7 +135,6 @@ h1 {
       font-size: 19px;
       text-align: justify;
       color: #fdb813;
-      display: inline-block;
       border: 2px solid #808080; /* Add a gray border */
       padding: 20px; /* Add padding inside the border */
       vertical-align: top; /* Align the element to the top */
@@ -144,9 +143,5 @@ h1 {
       margin: 10px 10px -5px; /* Add margin-top of 10px and remove margin-bottom */
       max-width: 45%; /* Limit the width to fit within the gray box */
       box-sizing: border-box; /* Include border and padding within the element's total width */
-      box-shadow: 0 0 10px #808080; /* Add a glowing effect
-
+      box-shadow: 0 0 10px #808080; /* Add a glowing effect */
 }
-
-
-
