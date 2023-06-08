@@ -91,6 +91,25 @@ h1 {
   padding: 0px 40px;
 }
 
+.description {
+            
+  text-align: left;
+  font-family: 'Courier New', monospace;
+  font-weight: normal;
+  font-size: 19px;
+  text-align: justify;
+  color: #fdb813;
+  border: 2px solid #808080; /* Add a gray border */
+  padding: 20px; /* Add padding inside the border */
+  vertical-align: top; /* Align the element to the top */
+  float: right; /* Align the element to the right */
+  box-sizing: border-box; /* Include border and padding within the element's total width */
+  margin: 10px 10px -5px; /* Add margin-top of 10px and remove margin-bottom */
+  max-width: 45%; /* Limit the width to fit within the gray box */
+  box-sizing: border-box; /* Include border and padding within the element's total width */
+  box-shadow: 0 0 10px #808080; /* Add a glowing effect */
+}
+
 .description p {
   
   margin-bottom: 10px;
@@ -127,21 +146,3 @@ h1 {
     background-color: #efa500;
 }
 
-.description {
-            
-      text-align: left;
-      font-family: 'Courier New', monospace;
-      font-weight: normal;
-      font-size: 19px;
-      text-align: justify;
-      color: #fdb813;
-      border: 2px solid #808080; /* Add a gray border */
-      padding: 20px; /* Add padding inside the border */
-      vertical-align: top; /* Align the element to the top */
-      float: right; /* Align the element to the right */
-      box-sizing: border-box; /* Include border and padding within the element's total width */
-      margin: 10px 10px -5px; /* Add margin-top of 10px and remove margin-bottom */
-      max-width: 45%; /* Limit the width to fit within the gray box */
-      box-sizing: border-box; /* Include border and padding within the element's total width */
-      box-shadow: 0 0 10px #808080; /* Add a glowing effect */
-}
