@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url(../imagenes/venus1.jpg);
+    background-image: url(../Imagenes/venus1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Arial', sans-serif;
