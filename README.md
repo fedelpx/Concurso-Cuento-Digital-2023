@@ -1,8 +1,8 @@
-# Concurso-Cuento-Digital-2023 **En Desarrollo**
+# Concurso-Cuento-Digital-2023 //**En Desarrollo**//
 
 # Venus
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**En construcción**
+//**En construcción**//
 
 # Realizado por Federico Carranza Zavalia para el "Concurso Itaú Cuento Digital 2023"
 
@@ -16,7 +16,7 @@ Las imagenes que acompañan la narrativa fueron creadas por Kaiber una Inteligen
 
 Puede leer el Cuento Digital aquí:
 
-# [Click Aquí](https://fedelpx.github.io/Concurso-Cuento-Digital-2023/) **En desarrollo**
+# [Click Aquí](https://fedelpx.github.io/Concurso-Cuento-Digital-2023/) //**En desarrollo**//
 
 
 
