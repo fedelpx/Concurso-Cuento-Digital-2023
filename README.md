@@ -12,7 +12,7 @@ Imagenes: Kaiber.ia
 
 Soporte HTML y CSS: ChatGPT 3
 
-Las imagenes que acompañan la narrativa fueron creadas por Kaiber una Inteligenia Artificial (IA) en base a comandos que fueron dados por mi. La estructura de la pagina, es decir el soporte o medio en el que se desarrolla la narrativa fue creado en estructuras HTML y CSS dos lenguajes de programación, dejé a ChatGPT realizar muchas de esas estructucturas las cueales yo luego modifique en base a el diseño que habia pensado.
+Las imagenes que acompañan la narrativa fueron creadas por Kaiber una Inteligenia Artificial (IA) en base a comandos que fueron dados por mi. La estructura de la pagina, es decir el soporte o medio en el que se desarrolla la narrativa fue creado en estructuras HTML y CSS dos lenguajes de programación, dejé a ChatGPT realizar muchas de esas estructucturas las cueales luego modifique en base a el diseño que habia pensado.
 
 Puede leer el Cuento Digital aquí:
 
