@@ -4,15 +4,14 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //**En construcción**//
 
-# Realizado por Federico Carranza Zavalia para el "Concurso Itaú Cuento Digital 2023"
+# Realizado para el "Concurso Itaú Cuento Digital 2023"
 
-Idea, diseño y realización: Federico Carranza Zavalia
+Idea, diseño y realización: Flybird
 
-Imagenes: Kaiber.ia
+Soporte HTML y CSS, diseño de pagina: ChatGPT (Inteligencia Artificial)
 
-Soporte HTML y CSS: ChatGPT 3
+La estructura de la pagina, es decir el soporte o medio en el que se desarrolla y se visualiza la narrativa fue creado en estructuras HTML y CSS, dos lenguajes de programación, dejé a ChatGPT realizar muchas de esas estructucturas, las cueales luego edite en base al diseño que había pensado.
 
-Las imagenes que acompañan la narrativa fueron creadas por Kaiber una Inteligenia Artificial (IA) en base a comandos que fueron dados por mi. La estructura de la pagina, es decir el soporte o medio en el que se desarrolla la narrativa fue creado en estructuras HTML y CSS dos lenguajes de programación, dejé a ChatGPT realizar muchas de esas estructucturas las cueales luego modifique en base a el diseño que habia pensado.
 
 Puede leer el Cuento Digital aquí:
 
