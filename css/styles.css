@@ -25,26 +25,15 @@ main {
 }
 
 .mp3-player audio::-webkit-media-controls-panel {
-            background-color: #fdb813;
+            background-color: #fb7e14;
             color: #ffffff;
-}
-.image-container {
-  position: absolute;
-  top: 50%;
-  left: 450px;
-  transform: translateY(-50%);
-}
-
-.image-container img {
-  width: 300px; /* Adjust the width as needed */
-  height: auto;
 }
   
 h1 {
   
   text-align: center;
   font-family: Garamond, serif;
-  color: #fdb813; /* Hf yellow color */
+  color: #fb7e14; /* Hf yellow color */
   font-size: 92px; /* Increase the font size */
   text-transform: uppercase; /* Transform the text to uppercase */
   letter-spacing: 2px; /* Add letter spacing */
@@ -59,7 +48,7 @@ h1 {
        text-shadow: none;
   }
   50% {
-       text-shadow: 0 0 10px #fdb813;
+       text-shadow: 0 0 10px #fb7e14;
   }
   100% {
         text-shadow: none;
@@ -68,7 +57,7 @@ h1 {
 
 .textbox {
             
-    color: #fdb813;
+    color: #fb7e14;
     text-align: right;
     max-width: 95%;
     margin-bottom: 65px;
@@ -87,7 +76,7 @@ h1 {
   font-weight: normal;
   font-size: 19px;
   text-align: justify;
-  color: #fdb813;
+  color: #fb7e14;
   border: 2px solid #808080; /* Add a gray border */
   padding: 20px; /* Add padding inside the border */
   vertical-align: top; /* Align the element to the top */
@@ -119,7 +108,7 @@ h1 {
         
 .button {
     padding: 15px 30px;
-    background-color: #fdb813;
+    background-color: #fb7e14;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -132,7 +121,7 @@ h1 {
 }
         
 .button:hover {
-    background-color: #efa500;
+    background-color: #fb7e14;
 }
 
 @media(max-width: 768px) {
