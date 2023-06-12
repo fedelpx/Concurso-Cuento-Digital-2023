@@ -124,10 +124,11 @@ h1 {
     background-color: #9b4c07;
 }
 
-@media(max-width: 769px) {
+@media screen and (max-width: 720px) {
   
   body{
     flex-direction: column;
+    
   }
   
   h1 {
@@ -140,7 +141,7 @@ h1 {
   }
 
   .description {
-      max-width: 100%;
+      max-width: 50%;
       margin: 10px;
       color: #fb7e14;
       flex-direction: column;
