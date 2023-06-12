@@ -70,8 +70,7 @@ h1 {
 }
 
 .description {
-            
-  text-align: left;
+
   font-family: 'Courier New', monospace;
   font-weight: normal;
   font-size: 19px;
@@ -86,6 +85,7 @@ h1 {
   max-width: 45%; /* Limit the width to fit within the gray box */
   box-sizing: border-box; /* Include border and padding within the element's total width */
   box-shadow: 0 0 10px #808080; /* Add a glowing effect */
+
 }
 
 .description p {
@@ -121,17 +121,29 @@ h1 {
 }
         
 .button:hover {
-    background-color: #fb7e14;
+    background-color: #9b4c07;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 769px) {
+  
+  body{
+    flex-direction: column;
+  }
+  
   h1 {
       font-size: 48px;
+  }
+
+  .mp3-player{
+    flex-direction: column;
+    top: 45px;
   }
 
   .description {
       max-width: 100%;
       margin: 10px;
+      color: #fb7e14;
+      flex-direction: column;
   }
 
   .button-container {
@@ -142,4 +154,5 @@ h1 {
       margin-right: 0;
       margin-bottom: 10px;
   }
+
 }
