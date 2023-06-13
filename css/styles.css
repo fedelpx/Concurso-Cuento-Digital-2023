@@ -124,11 +124,11 @@ h1 {
     background-color: #9b4c07;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1024px) {
   
   body{
     flex-direction: column;
-    
+    background-image: url('../Imagenes/fondoMovil.jpg');
   }
   
   h1 {
