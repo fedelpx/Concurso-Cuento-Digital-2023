@@ -156,4 +156,14 @@ h1 {
       margin-bottom: 10px;
   }
 
+  .button:not(:last-child) {
+    margin-right: 0; /* Reset margin to remove the overlap */
+    margin-bottom: 20px; /* Add margin bottom to create spacing between buttons */
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .button:not(:last-child) {
+    margin-right: 320px;
+  }
 }
