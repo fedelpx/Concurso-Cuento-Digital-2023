@@ -141,7 +141,7 @@ h1 {
   }
 
   .description {
-      max-width: 50%;
+      max-width: 100%;
       margin: 10px;
       color: #fb7e14;
       flex-direction: column;
