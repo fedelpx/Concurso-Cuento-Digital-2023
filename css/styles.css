@@ -1,70 +1,79 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    background-image: url('../Imagenes/venus1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Arial', sans-serif;
-  
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url('../Imagenes/venus1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Change justify-content value */
+  justify-content: flex-start;
+  /* Change justify-content value */
 
 }
 
 .mp3-player {
-            position: absolute;
-            top: 25px;
-            right: 20px;
-            z-index: 1;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  z-index: 1;
 }
 
 .mp3-player audio::-webkit-media-controls-panel {
-            background-color: #fb7e14;
-            color: #ffffff;
+  background-color: #fb7e14;
+  color: #ffffff;
 }
-  
+
 h1 {
-  
+
   text-align: center;
   font-family: Garamond, serif;
-  color: #fb7e14; /* Hf yellow color */
-  font-size: 92px; /* Increase the font size */
-  text-transform: uppercase; /* Transform the text to uppercase */
-  letter-spacing: 2px; /* Add letter spacing */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow */
-  font-weight: normal; /* Make the text bold */
+  color: #fb7e14;
+  /* Hf yellow color */
+  font-size: 92px;
+  /* Increase the font size */
+  text-transform: uppercase;
+  /* Transform the text to uppercase */
+  letter-spacing: 2px;
+  /* Add letter spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* Add a text shadow */
+  font-weight: normal;
+  /* Make the text bold */
   animation: glow 5s infinite alternate;
 }
 
 
 @keyframes glow {
   0% {
-       text-shadow: none;
+    text-shadow: none;
   }
+
   50% {
-       text-shadow: 0 0 10px #fb7e14;
+    text-shadow: 0 0 10px #fb7e14;
   }
+
   100% {
-        text-shadow: none;
+    text-shadow: none;
   }
 }
 
 .textbox {
-            
-    color: #fb7e14;
-    text-align: right;
-    max-width: 95%;
-    margin-bottom: 65px;
+
+  color: #fb7e14;
+  text-align: right;
+  max-width: 95%;
+  margin-bottom: 65px;
 }
 
 .description-container {
-            
+
   text-align: right;
   padding: 0px 40px;
 }
@@ -76,20 +85,29 @@ h1 {
   font-size: 19px;
   text-align: justify;
   color: #fb7e14;
-  border: 2px solid #808080; /* Add a gray border */
-  padding: 20px; /* Add padding inside the border */
-  vertical-align: top; /* Align the element to the top */
-  float: right; /* Align the element to the right */
-  box-sizing: border-box; /* Include border and padding within the element's total width */
-  margin: 10px 10px -5px; /* Add margin-top of 10px and remove margin-bottom */
-  max-width: 45%; /* Limit the width to fit within the gray box */
-  box-sizing: border-box; /* Include border and padding within the element's total width */
-  box-shadow: 0 0 10px #808080; /* Add a glowing effect */
+  border: 2px solid #808080;
+  /* Add a gray border */
+  padding: 20px;
+  /* Add padding inside the border */
+  vertical-align: top;
+  /* Align the element to the top */
+  float: right;
+  /* Align the element to the right */
+  box-sizing: border-box;
+  /* Include border and padding within the element's total width */
+  margin: 10px 10px -5px;
+  /* Add margin-top of 10px and remove margin-bottom */
+  max-width: 45%;
+  /* Limit the width to fit within the gray box */
+  box-sizing: border-box;
+  /* Include border and padding within the element's total width */
+  box-shadow: 0 0 10px #808080;
+  /* Add a glowing effect */
 
 }
 
 .description p {
-  
+
   margin-bottom: 10px;
 
 }
@@ -102,68 +120,82 @@ h1 {
 }
 
 .button-container {
-    align-self: flex-end; /* Align the container to the right */
-    margin-right: 10px; /* Add margin to the right */
+  align-self: flex-end;
+  /* Align the container to the right */
+  margin-right: 10px;
+  /* Add margin to the right */
 }
-        
+
 .button {
-    padding: 15px 30px;
-    background-color: #fb7e14;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+  padding: 15px 30px;
+  background-color: #fb7e14;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 .button:not(:last-child) {
-    margin-right: 320px;
+  margin-right: 320px;
 }
-        
+
 .button:hover {
-    background-color: #9b4c07;
+  background-color: #9b4c07;
 }
 
 @media screen and (max-width: 1024px) {
-  
-  body{
+
+  body {
     flex-direction: column;
     background-image: url('../Imagenes/fondoMovil.jpg');
   }
-  
+
   h1 {
-      font-size: 48px;
+    font-size: 48px;
   }
 
-  .mp3-player{
+  .mp3-player {
     flex-direction: column;
-    top: 45px;
+    top: 55px;
+  }
+
+  .textbox-venus {
+    margin-top: 65px;
+    margin-right: 70px;
   }
 
   .description {
-      max-width: 100%;
-      margin: 10px;
-      color: #fb7e14;
-      flex-direction: column;
+    max-width: 100%;
+    margin: 10px;
+    color: #fb7e14;
+    flex-direction: column;
   }
 
   .button-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .button {
-      margin-right: 0;
-      margin-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   .button:not(:last-child) {
-    margin-right: 0; /* Reset margin to remove the overlap */
-    margin-bottom: 20px; /* Add margin bottom to create spacing between buttons */
+    margin-right: 0;
+    /* Reset margin to remove the overlap */
+    margin-bottom: 20px;
+    /* Add margin bottom to create spacing between buttons */
   }
 }
 
 @media screen and (min-width: 2560px) {
   .button:not(:last-child) {
     margin-right: 320px;
+  }
+
+  .textbox-venus {
+    margin-top: 10px;
+    margin-right: -50px;
   }
 }
