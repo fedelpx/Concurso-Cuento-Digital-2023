@@ -198,4 +198,11 @@ h1 {
     margin-top: 10px;
     margin-right: -50px;
   }
+  .description{
+    margin-left: 400px;
+  }
+
+  .button{
+    margin-right: 50px;
+  }
 }

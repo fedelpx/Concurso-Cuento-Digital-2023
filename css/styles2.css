@@ -191,11 +191,20 @@ body {
   
   @media screen and (min-width: 2560px) {
     .button:not(:last-child) {
-      margin-right: 320px;
+      margin-right: 400px;
     }
   
     .textbox-venus {
       margin-top: 10px;
       margin-right: -50px;
     }
+
+    .description{
+      margin-left: 400px;
+    }
+
+    .button{
+      margin-right: 15px;
+    }
+
   }
